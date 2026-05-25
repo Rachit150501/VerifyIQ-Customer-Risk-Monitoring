@@ -1,4 +1,4 @@
-# 🛡️ VerifyIQ — Customer Risk & Transaction Monitoring
+# VerifyIQ — Customer Risk & Transaction Monitoring
 
 A real-world inspired banking compliance analytics project built using SQL, PostgreSQL, Excel, and Power Query.
 
@@ -8,7 +8,7 @@ It demonstrates practical risk analytics, fraud detection logic, and compliance 
 
 ---
 
-# 📌 Project Overview
+# Project Overview
 
 VerifyIQ is a customer risk monitoring and transaction analytics project designed to simulate real-world compliance analysis.
 
@@ -23,7 +23,7 @@ This project focuses on identifying:
 
 ---
 
-# 🎯 Business Problem
+# Business Problem
 
 Banks and financial institutions must continuously monitor customer activity to detect suspicious behavior, fraud risks, and compliance violations.
 
@@ -37,7 +37,7 @@ This project helps answer critical business questions such as:
 
 ---
 
-# ⚙️ Tech Stack
+#  Tech Stack
 
 - PostgreSQL
 - SQL
@@ -48,17 +48,17 @@ This project helps answer critical business questions such as:
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```text
 VerifyIQ-Customer-Risk-Monitoring
 │
 ├── data
-│   ├── clients_clean.csv.csv
+│   ├── clients_clean.csv
 │   └── transactions_with_fatf_ofac.csv
 │
 ├── sql
-│   └── queries.sql.txt
+│   └── queries.sql
 │
 ├── screenshots
 │   ├── total_clients.png
@@ -70,7 +70,7 @@ VerifyIQ-Customer-Risk-Monitoring
 
 ---
 
-# 📊 Key Analysis Performed
+# Key Analysis Performed
 
 ## Customer Risk Analysis
 - High-risk customer identification
@@ -87,20 +87,21 @@ VerifyIQ-Customer-Risk-Monitoring
 
 ---
 
-# 🖼️ Project Screenshots
+#  Project Screenshots
 
 ## Total Customers Analysis
-![Total Customers](./VerifyIQ-Customer-Risk-Monitoring/screenshots/total_clients.png)
+## Total Customers Analysis
+![Total Customers](screenshots/total_clients.png)
 
 ## Total Transactions Analysis
-![Total Transactions](./VerifyIQ-Customer-Risk-Monitoring/screenshots/total_transactions.png)
+![Total Transactions](screenshots/total_transactions.png)
 
 ## Top Customer Analysis
-![Top Customers](./VerifyIQ-Customer-Risk-Monitoring/screenshots/top_customers_analysis.png)
+![Top Customers](screenshots/top_customers_analysis.png)
 
 ---
 
-# 💼 Skills Demonstrated
+# Skills Demonstrated
 
 - SQL Query Writing
 - PostgreSQL
@@ -111,7 +112,7 @@ VerifyIQ-Customer-Risk-Monitoring
 
 ---
 
-# 🎯 Relevant Roles
+# Relevant Roles
 
 - Data Analyst
 - Risk Analyst
