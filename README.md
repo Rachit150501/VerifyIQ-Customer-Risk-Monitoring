@@ -55,9 +55,3 @@ VerifyIQ-Customer-Risk-Monitoring
 ├── sql
 ├── screenshots
 └── README.md
-
-![Total Customers](./VerifyIQ-Customer-Risk-Monitoring/screenshots/total_clients.png)
-
-![Total Transactions](./VerifyIQ-Customer-Risk-Monitoring/screenshots/total_transactions.png)
-
-![Top Customers](./VerifyIQ-Customer-Risk-Monitoring/screenshots/top_customers_analysis.png)
