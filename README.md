@@ -70,7 +70,7 @@ VerifyIQ-Customer-Risk-Monitoring
 
 ---
 
-# Key Analysis Performed
+#  Key Analysis Performed
 
 ## Customer Risk Analysis
 - High-risk customer identification
@@ -90,17 +90,17 @@ VerifyIQ-Customer-Risk-Monitoring
 #  Project Screenshots
 
 ## Total Customers Analysis
-![Total Customers](screenshots/total_clients.png)
+![Total Customers](./VerifyIQ-Customer-Risk-Monitoring/screenshots/total_clients.png)
 
 ## Total Transactions Analysis
-![Total Transactions](screenshots/total_transactions.png)
+![Total Transactions](./VerifyIQ-Customer-Risk-Monitoring/screenshots/total_transactions.png)
 
 ## Top Customer Analysis
-![Top Customers](screenshots/top_customers_analysis.png)
+![Top Customers](./VerifyIQ-Customer-Risk-Monitoring/screenshots/top_customers_analysis.png)
 
 ---
 
-# Skills Demonstrated
+#  Skills Demonstrated
 
 - SQL Query Writing
 - PostgreSQL
@@ -111,9 +111,9 @@ VerifyIQ-Customer-Risk-Monitoring
 
 ---
 
-# Relevant Roles
+#  Relevant Roles
 
 - Data Analyst
 - Risk Analyst
 - AML Analyst
-- Fraud Analyst
+- Fraud Analyst ab 
