@@ -1,65 +1,86 @@
-VerifyIQ - Customer Risk & Transaction Monitoring
+# VerifyIQ - Customer Risk & Transaction Monitoring
 
-About This Project :
+## Project Overview
+VerifyIQ is a data analytics project focused on customer risk assessment and transaction monitoring in a simulated banking/compliance environment.
 
-I built this project to understand how customer risk analysis and transaction monitoring work in a banking/compliance environment.
+The objective of this project is to identify high-risk customers, suspicious transaction patterns, and potential fraud indicators using SQL-driven analysis.
 
-The goal of this project is to identify risky customers, suspicious transaction patterns, and potential fraud indicators using SQL-based analysis.
+This project uses synthetic KYC and transaction datasets to replicate real-world financial compliance monitoring scenarios such as AML (Anti-Money Laundering), sanctions screening, and risk profiling.
 
-This project uses synthetic KYC and transaction data to simulate real-world compliance monitoring scenarios.
+---
 
------------------------------------------------------------
+## Business Problem
+Financial institutions need to continuously monitor customer activity to detect suspicious behavior, regulatory risks, and compliance violations.
 
-Tools Used :
+This project answers practical compliance-related questions such as:
 
+- Which customers are classified as high risk?
+- How many Politically Exposed Persons (PEPs) exist?
+- Are sanctioned or FATF-risk customers present?
+- Which transactions show suspicious movement patterns?
+- Who are the highest-value transacting customers?
+
+---
+
+## Tools & Technologies Used
 - PostgreSQL
 - SQL
 - Excel
 - Power Query
+- Data Cleaning
+- Data Analysis
+- Compliance Risk Analytics
 
--------------------------------------------------------------
+---
 
-What I Did
-In this project, I worked on the complete data analysis workflow:
+## Project Workflow
+In this project, I performed the complete end-to-end analytics workflow:
 
+### Data Preparation
 - Cleaned raw CSV datasets using Excel and Power Query
+- Standardized customer and transaction records
+- Prepared structured datasets for analysis
 
-- Imported client and transaction datasets into PostgreSQL
+### Database Setup
+- Imported datasets into PostgreSQL
+- Created analysis-ready tables
+- Performed joins between customer and transaction datasets
 
+### Risk Analysis
+Analyzed customer risk categories including:
+- High-risk sectors
+- Politically Exposed Persons (PEP)
+- Sanctioned customers
+- FATF risk exposure
+- OFAC-related transaction risk
 
-- Created SQL queries to answer business and compliance-related questions
+### Suspicious Transaction Monitoring
+Investigated suspicious patterns such as:
+- Structuring behavior
+- Rapid fund movement
+- High-value transaction anomalies
+- Trade mispricing indicators
 
-- Analyzed customer risk categories such as:
-  - High-risk sectors
-  - Politically Exposed Persons (PEP)
-  - Sanctioned customers
-  - FATF / OFAC risk exposure
+---
 
-- Investigated suspicious transaction patterns including:
-  - Structuring behavior
-  - Rapid fund movement
-  - Trade mispricing indicators
+## Key Business Questions Answered
+This project answers important business and compliance questions:
 
-- Performed JOIN-based analysis between customer and transaction data
+- Total customers in the system
+- Distribution of customer types
+- Count of high-risk customers
+- PEP customer analysis
+- Sanctioned customer identification
+- FATF risk exposure analysis
+- Total transaction volume
+- Highest transaction amount by customer
+- High-risk customer transaction behavior
+- Suspicious activity pattern detection
 
---------------------------------------------------------------
+---
 
-Key Business Questions Answered
-Some of the analysis questions explored in this project:
-
-- How many total customers are in the system?
-- What is the distribution of customer types?
-- How many high-risk customers exist?
-- How many PEP or sanctioned customers are present?
-- What is the total transaction volume?
-- Which customers moved the highest transaction amounts?
-- Are high-risk customers involved in suspicious transactions?
-- What suspicious patterns are visible in transaction activity?
-
---------------------------------------------------------------
-
-Project Folder Structure :
-
+## Project Structure
+```text
 VerifyIQ-Customer-Risk-Monitoring
 │
 ├── data
