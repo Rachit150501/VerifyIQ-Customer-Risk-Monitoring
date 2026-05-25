@@ -1,41 +1,43 @@
-#  VerifyIQ — Customer Risk & Transaction Monitoring
+# VerifyIQ — Customer Risk & Transaction Monitoring
 
 A real-world inspired banking compliance analytics project built using SQL, PostgreSQL, Excel, and Power Query.
 
 This project simulates how financial institutions monitor customer risk profiles, suspicious transaction behavior, and compliance exposure using data analytics.
 
+It demonstrates practical risk analytics, fraud detection logic, and compliance monitoring workflows commonly used in banking and financial institutions.
+
 ---
 
-# Project Overview
+#  Project Overview
 
-VerifyIQ simulates a customer risk monitoring system used in banking and financial compliance environments.
+VerifyIQ is a customer risk monitoring and transaction analytics project designed to simulate real-world compliance analysis.
 
-This project helps identify:
+This project focuses on identifying:
 
 - High-risk customers
 - Politically Exposed Persons (PEPs)
 - Sanctioned customers
 - FATF risk customers
 - Suspicious transaction behavior
-- High-value transaction anomalies
+- High transaction volume anomalies
 
 ---
 
 # Business Problem
 
-Banks must continuously monitor customer behavior to detect fraud, compliance violations, and suspicious activity.
+Banks and financial institutions must continuously monitor customer activity to detect suspicious behavior, fraud risks, and compliance violations.
 
-This project answers questions like:
+This project helps answer critical business questions such as:
 
-- Which customers are highest risk?
+- Which customers are classified as high risk?
 - How many PEP customers exist?
-- Are sanctioned customers active?
-- Which customers moved the highest amounts?
-- What suspicious patterns exist?
+- Are sanctioned entities present?
+- Which customers moved unusually high transaction volumes?
+- What suspicious transaction patterns exist?
 
 ---
 
-#  Tech Stack
+# Tech Stack
 
 - PostgreSQL
 - SQL
@@ -46,12 +48,72 @@ This project answers questions like:
 
 ---
 
-#  Project Structure
+# Project Structure
 
 ```text
 VerifyIQ-Customer-Risk-Monitoring
 │
 ├── data
+│   ├── clients_clean.csv.csv
+│   └── transactions_with_fatf_ofac.csv
+│
 ├── sql
+│   └── queries.sql.txt
+│
 ├── screenshots
+│   ├── total_clients.png
+│   ├── total_transactions.png
+│   └── top_customers_analysis.png
+│
 └── README.md
+```
+
+---
+
+# 📊 Key Analysis Performed
+
+## Customer Risk Analysis
+- High-risk customer identification
+- Customer segmentation
+- PEP analysis
+- Sanctions monitoring
+- FATF risk analysis
+
+## Transaction Monitoring
+- Total transaction volume analysis
+- Top customer transaction analysis
+- Suspicious activity detection
+- High-value transaction monitoring
+
+---
+
+# 🖼️ Project Screenshots
+
+## Total Customers Analysis
+![Total Customers](./VerifyIQ-Customer-Risk-Monitoring/screenshots/total_clients.png)
+
+## Total Transactions Analysis
+![Total Transactions](./VerifyIQ-Customer-Risk-Monitoring/screenshots/total_transactions.png)
+
+## Top Customer Analysis
+![Top Customers](./VerifyIQ-Customer-Risk-Monitoring/screenshots/top_customers_analysis.png)
+
+---
+
+# 💼 Skills Demonstrated
+
+- SQL Query Writing
+- PostgreSQL
+- Data Cleaning
+- Risk Analysis
+- Fraud Detection
+- Business Analysis
+
+---
+
+# 🎯 Relevant Roles
+
+- Data Analyst
+- Risk Analyst
+- AML Analyst
+- Fraud Analyst
