@@ -12,16 +12,16 @@ It demonstrates practical risk analytics, fraud detection logic, and transaction
 
 VerifyIQ is a customer risk monitoring and transaction analytics project built using synthetic KYC and transaction data.
 
-The objective of this project is to analyze customer behavior, identify risky entities, and detect suspicious transaction patterns through structured SQL analysis.
+The objective of this project is to analyze customer behavior, identify risky customers, and detect suspicious transaction patterns through SQL analysis.
 
-This project focuses on identifying:
+This project focuses on:
 
-- High-risk customers
-- Politically Exposed Persons (PEPs)
-- Sanctioned customers
-- FATF / OFAC risk exposure
-- Suspicious transaction behavior
-- High-value transaction anomalies
+- High-risk customer identification
+- PEP (Politically Exposed Person) analysis
+- Sanctioned customer monitoring
+- FATF / OFAC risk exposure analysis
+- Suspicious transaction detection
+- High-value customer transaction analysis
 
 ---
 
@@ -29,13 +29,13 @@ This project focuses on identifying:
 
 Banks and financial institutions must continuously monitor customer activity to detect suspicious behavior, fraud risks, and compliance violations.
 
-This project helps answer important business questions such as:
+This project helps answer business questions such as:
 
 - Which customers are classified as high risk?
 - How many PEP customers exist?
-- Are sanctioned entities present in the customer base?
-- Which customers moved the highest transaction volumes?
-- What suspicious transaction patterns are visible?
+- Are sanctioned entities present?
+- Which customers moved the highest transaction amounts?
+- What suspicious transaction patterns exist?
 
 ---
 
@@ -45,7 +45,6 @@ This project helps answer important business questions such as:
 - SQL
 - Excel
 - Power Query
-- CSV Data Cleaning
 
 ---
 
@@ -64,10 +63,7 @@ VerifyIQ-Customer-Risk-Monitoring
 ├── screenshots
 │   ├── total_clients.png
 │   ├── total_transactions.png
-│   ├── top_customers_analysis.png
-│   ├── high_risk_analysis.png
-│   ├── pep_customer_analysis.png
-│   └── suspicious_high_risk.png
+│   └── top_customers_analysis.png
 │
 └── README.md
 ```
@@ -85,16 +81,16 @@ VerifyIQ-Customer-Risk-Monitoring
 
 ### Transaction Monitoring
 - Total transaction volume analysis
-- Transaction value analysis
+- Total transaction amount analysis
 - Top customer transaction analysis
 - Suspicious activity detection
-- High-value transaction monitoring
+- Risk-based customer monitoring
 
 ---
 
 ## SQL Analysis Highlights
 
-The project includes SQL analysis covering:
+The project includes analysis for:
 
 - Total customer count
 - Total transaction count
@@ -104,7 +100,7 @@ The project includes SQL analysis covering:
 - Sanctioned customer analysis
 - FATF / OFAC exposure checks
 - Top transaction customers
-- Suspicious structuring pattern detection
+- Suspicious transaction detection
 - High-risk customer investigation
 
 ---
@@ -117,11 +113,8 @@ The project includes SQL analysis covering:
 ### Total Transactions Analysis
 ![Total Transactions](./screenshots/total_transactions.png)
 
-### Top Customer Analysis
+### Top Customer Transaction Analysis
 ![Top Customers](./screenshots/top_customers_analysis.png)
-
-### High Risk Analysis
-![High Risk](./screenshots/high_risk_analysis.png)
 
 ---
 
@@ -150,12 +143,12 @@ This project is relevant for:
 
 ## Future Enhancements
 
-Planned next step:
+Next planned phase:
 
 - Interactive Power BI Dashboard
 - KPI Monitoring Dashboard
-- Risk Visualization
 - Fraud Trend Analysis
+- Risk Visualization
 
 ---
 
