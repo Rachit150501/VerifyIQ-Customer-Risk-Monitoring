@@ -89,15 +89,17 @@ VerifyIQ-Customer-Risk-Monitoring
 
 #  Project Screenshots
 
-## Total Customers Analysis
-## Total Customers Analysis
-![Total Customers](screenshots/total_clients.png)
-
-## Total Transactions Analysis
-![Total Transactions](screenshots/total_transactions.png)
-
 ## Top Customer Analysis
 ![Top Customers](screenshots/top_customers_analysis.png)
+
+## High Risk Analysis
+![High Risk](screenshots/high_risk_analysis.png)
+
+## PEP Customer Analysis
+![PEP Analysis](screenshots/pep_customer_analysis.png)
+
+## Suspicious High Risk Analysis
+![Suspicious Activity](screenshots/suspicious_high_risk.png)
 
 ---
 
