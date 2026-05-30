@@ -79,6 +79,9 @@ VerifyIQ-Customer-Risk-Monitoring
 ├── screenshots
 │   ├── total_clients.png
 │   ├── total_transactions.png
+│   ├── high_risk_analysis.png
+│   ├── pep_customer_analysis.png
+│   ├── suspicious_high_risk.png
 │   └── top_customers_analysis.png
 │
 └── README.md
@@ -128,6 +131,24 @@ VerifyIQ-Customer-Risk-Monitoring
 
 ---
 
+###  High Risk Customer Analysis
+
+![High Risk Analysis](./VerifyIQ-Customer-Risk-Monitoring/screenshots/high_risk_analysis.png)
+
+---
+
+###  PEP Customer Analysis
+
+![PEP Customer Analysis](./VerifyIQ-Customer-Risk-Monitoring/screenshots/pep_customer_analysis.png)
+
+---
+
+###  Suspicious High Risk Activity
+
+![Suspicious High Risk](./VerifyIQ-Customer-Risk-Monitoring/screenshots/suspicious_high_risk.png)
+
+---
+
 ###  Top Customer Transaction Analysis
 
 ![Top Customers](./VerifyIQ-Customer-Risk-Monitoring/screenshots/top_customers_analysis.png)
@@ -146,9 +167,10 @@ VerifyIQ-Customer-Risk-Monitoring
 - Business Analysis & Reporting
 - Git & GitHub Version Control
 
+
 ---
 
-##  Author
+## 👤 Author
 
 **Rachit Bajpai**
 
